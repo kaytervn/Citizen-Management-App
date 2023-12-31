@@ -252,6 +252,3 @@ Tài khoản đăng nhập cho người quản lý (người quản lý có th�
 **How Transfer Data from Child Form Back to Parent form:**
 
 <https://www.youtube.com/watch?v=TFOLV4OzfGQ&list=LL&index=2&t=140s>
-
-2
-
