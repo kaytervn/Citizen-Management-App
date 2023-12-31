@@ -38,11 +38,9 @@ namespace QuanLyCongDanThanhPho
             for (int i = 0; i < dtgvKhaiTu.Rows.Count; i++)
             {
                 if (kt.MaCD == (int)dtgvKhaiTu.Rows[i].Cells[0].Value)
-                {
                     dtgvKhaiTu.Rows[i].Selected = true;
-                    dtgvKhaiTu_CellClick(null, null);
-                }
             }
+            dtgvKhaiTu_CellClick(null, null);
         }
 
         void ResetThongTin()

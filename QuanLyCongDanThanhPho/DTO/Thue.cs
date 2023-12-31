@@ -9,6 +9,15 @@ namespace QuanLyCongDanThanhPho
 {
     public partial class Thue
     {
+        public int MaThue { get; set; }
+        public string TenThue { get; set; }
+        public double MucThue { get; set; }
+        public string CCCD { get; set; }
+        public double ThuNhap { get; set; }
+        public System.DateTime Ngay { get; set; }
+
+        public virtual CanCuocCongDan CanCuocCongDan { get; set; }
+
         CanCuocCongDanDAO cccdDAO = new CanCuocCongDanDAO();
 
         public Thue(int maThue, string tenThue, double mucThue, string cCCD, double thuNhap, DateTime ngay)

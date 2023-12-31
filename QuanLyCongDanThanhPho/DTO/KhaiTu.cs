@@ -9,6 +9,16 @@ namespace QuanLyCongDanThanhPho
 {
     public partial class KhaiTu
     {
+        public int MaCD { get; set; }
+        public string NguyenNhan { get; set; }
+        public System.DateTime NgayTu { get; set; }
+        public System.DateTime NgayKhai { get; set; }
+        public string NguoiKhai { get; set; }
+        public string QuanHeVoiNguoiDuocKhai { get; set; }
+
+        public virtual CanCuocCongDan CanCuocCongDan { get; set; }
+        public virtual CongDan CongDan { get; set; }
+
         CongDanDAO cdDAO = new CongDanDAO();
         CanCuocCongDanDAO cccdDAO = new CanCuocCongDanDAO();
 

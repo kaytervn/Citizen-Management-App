@@ -34,11 +34,9 @@ namespace QuanLyCongDanThanhPho
             for (int i = 0; i < dtgvLyHon.Rows.Count; i++)
             {
                 if (lh.MaKH == (int)dtgvLyHon.Rows[i].Cells[0].Value)
-                {
                     dtgvLyHon.Rows[i].Selected = true;
-                    dtgvLyHon_CellClick(null, null);
-                }
             }
+            dtgvLyHon_CellClick(null, null);
         }
 
         private void fLyHon_Load(object sender, EventArgs e)

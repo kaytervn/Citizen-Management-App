@@ -55,16 +55,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CanCuocCongDan.cs">
-      <DependentUpon>QLCDTP.tt</DependentUpon>
-    </Compile>
     <Compile Include="CanCuocCongDanDS.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>CanCuocCongDanDS.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="CongDan.cs">
-      <DependentUpon>QLCDTP.tt</DependentUpon>
     </Compile>
     <Compile Include="CongDanDS.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -206,67 +200,25 @@
     </Compile>
     <Compile Include="DAO\KhaiSinhDAO.cs" />
     <Compile Include="DTO\KhaiSinh.cs" />
-    <Compile Include="fTimKiemCanCuocCongDan_Result.cs">
-      <DependentUpon>QLCDTP.tt</DependentUpon>
-    </Compile>
-    <Compile Include="fTimKiemHoKhau_Result.cs">
-      <DependentUpon>QLCDTP.tt</DependentUpon>
-    </Compile>
-    <Compile Include="fTimKiemKetHon_Result.cs">
-      <DependentUpon>QLCDTP.tt</DependentUpon>
-    </Compile>
-    <Compile Include="fTimKiemKhaiSinh_Result.cs">
-      <DependentUpon>QLCDTP.tt</DependentUpon>
-    </Compile>
-    <Compile Include="fTimKiemKhaiTu_Result.cs">
-      <DependentUpon>QLCDTP.tt</DependentUpon>
-    </Compile>
-    <Compile Include="fTimKiemLyHon_Result.cs">
-      <DependentUpon>QLCDTP.tt</DependentUpon>
-    </Compile>
-    <Compile Include="fTimKiemTamTruTamVang_Result.cs">
-      <DependentUpon>QLCDTP.tt</DependentUpon>
-    </Compile>
-    <Compile Include="fTimKiemThue_Result.cs">
-      <DependentUpon>QLCDTP.tt</DependentUpon>
-    </Compile>
-    <Compile Include="fTimKiemThuongTru_Result.cs">
-      <DependentUpon>QLCDTP.tt</DependentUpon>
-    </Compile>
-    <Compile Include="HoKhau.cs">
-      <DependentUpon>QLCDTP.tt</DependentUpon>
-    </Compile>
     <Compile Include="HoKhauDS.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>HoKhauDS.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="KetHon.cs">
-      <DependentUpon>QLCDTP.tt</DependentUpon>
     </Compile>
     <Compile Include="KetHonDS.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>KetHonDS.xsd</DependentUpon>
     </Compile>
-    <Compile Include="KhaiSinh.cs">
-      <DependentUpon>QLCDTP.tt</DependentUpon>
-    </Compile>
     <Compile Include="KhaiSinhDS.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>KhaiSinhDS.xsd</DependentUpon>
     </Compile>
-    <Compile Include="KhaiTu.cs">
-      <DependentUpon>QLCDTP.tt</DependentUpon>
-    </Compile>
     <Compile Include="KhaiTuDS.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>KhaiTuDS.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="LyHon.cs">
-      <DependentUpon>QLCDTP.tt</DependentUpon>
     </Compile>
     <Compile Include="LyHonDS.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -281,71 +233,20 @@
     <Compile Include="DTO\ThuongTru.cs" />
     <Compile Include="DAO\TamTruTamVangDAO.cs" />
     <Compile Include="DAO\ThueDAO.cs" />
-    <Compile Include="QLCDTP.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>QLCDTP.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="QLCDTP.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>QLCDTP.tt</DependentUpon>
-    </Compile>
-    <Compile Include="QLCDTP.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>QLCDTP.edmx</DependentUpon>
-    </Compile>
-    <Compile Include="TamTruTamVang.cs">
-      <DependentUpon>QLCDTP.tt</DependentUpon>
-    </Compile>
     <Compile Include="TamTruTamVangDS.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>TamTruTamVangDS.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="Thue.cs">
-      <DependentUpon>QLCDTP.tt</DependentUpon>
     </Compile>
     <Compile Include="ThueDS.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>ThueDS.xsd</DependentUpon>
     </Compile>
-    <Compile Include="ThuongTru.cs">
-      <DependentUpon>QLCDTP.tt</DependentUpon>
-    </Compile>
     <Compile Include="ThuongTruDS.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>ThuongTruDS.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="vCanCuocCongDan.cs">
-      <DependentUpon>QLCDTP.tt</DependentUpon>
-    </Compile>
-    <Compile Include="vHoKhau.cs">
-      <DependentUpon>QLCDTP.tt</DependentUpon>
-    </Compile>
-    <Compile Include="vKetHon.cs">
-      <DependentUpon>QLCDTP.tt</DependentUpon>
-    </Compile>
-    <Compile Include="vKhaiSinh.cs">
-      <DependentUpon>QLCDTP.tt</DependentUpon>
-    </Compile>
-    <Compile Include="vKhaiTu.cs">
-      <DependentUpon>QLCDTP.tt</DependentUpon>
-    </Compile>
-    <Compile Include="vLyHon.cs">
-      <DependentUpon>QLCDTP.tt</DependentUpon>
-    </Compile>
-    <Compile Include="vTamTruTamVang.cs">
-      <DependentUpon>QLCDTP.tt</DependentUpon>
-    </Compile>
-    <Compile Include="vThue.cs">
-      <DependentUpon>QLCDTP.tt</DependentUpon>
-    </Compile>
-    <Compile Include="vThuongTru.cs">
-      <DependentUpon>QLCDTP.tt</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Form\CongDan\fCongDan.resx">
       <DependentUpon>fCongDan.cs</DependentUpon>
@@ -503,13 +404,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <EntityDeploy Include="QLCDTP.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>QLCDTP.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <None Include="QLCDTP.edmx.diagram">
-      <DependentUpon>QLCDTP.edmx</DependentUpon>
-    </None>
     <None Include="TamTruTamVangDS.xsc">
       <DependentUpon>TamTruTamVangDS.xsd</DependentUpon>
     </None>
@@ -552,18 +446,6 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="QLCDTP.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>QLCDTP.edmx</DependentUpon>
-      <LastGenOutput>QLCDTP.Context.cs</LastGenOutput>
-    </Content>
-    <Content Include="QLCDTP.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>QLCDTP.edmx</DependentUpon>
-      <LastGenOutput>QLCDTP.cs</LastGenOutput>
-    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

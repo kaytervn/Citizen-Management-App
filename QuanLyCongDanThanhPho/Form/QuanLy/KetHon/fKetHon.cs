@@ -34,11 +34,9 @@ namespace QuanLyCongDanThanhPho
             for (int i = 0; i < dtgvKetHon.Rows.Count; i++)
             {
                 if (kh.MaKH == (int)dtgvKetHon.Rows[i].Cells[0].Value)
-                {
                     dtgvKetHon.Rows[i].Selected = true;
-                    dtgvKetHon_CellClick(null, null);
-                }
             }
+            dtgvKetHon_CellClick(null, null);
         }
 
         void ResetThongTinChong()

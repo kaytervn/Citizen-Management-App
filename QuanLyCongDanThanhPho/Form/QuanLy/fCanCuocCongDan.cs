@@ -29,11 +29,9 @@ namespace QuanLyCongDanThanhPho
             for (int i = 0; i < dtgvCanCuocCongDan.Rows.Count; i++)
             {
                 if (cccd.CCCD == dtgvCanCuocCongDan.Rows[i].Cells[0].Value.ToString())
-                {
                     dtgvCanCuocCongDan.Rows[i].Selected = true;
-                    dtgvCanCuocCongDan_CellClick(null, null);
-                }
             }
+            dtgvCanCuocCongDan_CellClick(null, null);
         }
 
         public fCanCuocCongDan(CanCuocCongDan cccd)

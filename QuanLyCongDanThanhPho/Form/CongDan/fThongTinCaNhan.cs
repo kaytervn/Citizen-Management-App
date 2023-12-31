@@ -182,9 +182,9 @@ namespace QuanLyCongDanThanhPho
                 dtgvTamTruTamVang.CurrentRow.Selected = true;
                 TamTruTamVang tttv = new TamTruTamVang(
                     Convert.ToInt32(dtgvTamTruTamVang.SelectedRows[0].Cells[0].Value),
-                    Convert.ToInt32(dtgvTamTruTamVang.SelectedRows[0].Cells[4].Value),
-                    (int)dtgvTamTruTamVang.SelectedRows[0].Cells[7].Value,
-                    (DateTime)dtgvTamTruTamVang.SelectedRows[0].Cells[8].Value
+                    Convert.ToInt32(dtgvTamTruTamVang.SelectedRows[0].Cells[1].Value),
+                    (int)dtgvTamTruTamVang.SelectedRows[0].Cells[2].Value,
+                    (DateTime)dtgvTamTruTamVang.SelectedRows[0].Cells[3].Value
                 );
 
                 if (tttv != null)
@@ -242,8 +242,8 @@ namespace QuanLyCongDanThanhPho
                     dtgvThue.SelectedRows[0].Cells[1].Value.ToString(),
                     Convert.ToDouble(dtgvThue.SelectedRows[0].Cells[2].Value),
                     dtgvThue.SelectedRows[0].Cells[3].Value.ToString(),
-                    Convert.ToDouble(dtgvThue.SelectedRows[0].Cells[6].Value),
-                    (DateTime)dtgvThue.SelectedRows[0].Cells[7].Value
+                    Convert.ToDouble(dtgvThue.SelectedRows[0].Cells[4].Value),
+                    (DateTime)dtgvThue.SelectedRows[0].Cells[5].Value
                 );
 
                 btTienThue.Text = (t.ThuNhap * t.MucThue / 100).ToString();

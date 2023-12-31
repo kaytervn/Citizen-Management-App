@@ -9,6 +9,12 @@ namespace QuanLyCongDanThanhPho
 {
     public partial class LyHon
     {
+        public int MaKH { get; set; }
+        public string LyDo { get; set; }
+        public System.DateTime NgayDangKy { get; set; }
+
+        public virtual KetHon KetHon { get; set; }
+
         KetHonDAO khDAO = new KetHonDAO();
 
         public LyHon(int makh, string lydo, DateTime ngaydangky)
